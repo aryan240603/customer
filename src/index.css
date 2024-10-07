@@ -1,13 +1,131 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.logo {
+  width: 100px; /* Adjust logo size */
+  border-radius: 50%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.icon {
+  width: 30px; /* Adjust icon size */
+  height: 30px;
+  margin-left: 15px;
 }
+
+.navbar {
+  width: 100%; /* Full-width navbar */
+  background-color: #ffd60a;
+}
+
+.navbar-brand {
+  width: 15%; /* Logo takes 15% */
+}
+
+.d-flex {
+  width: 15%; /* Search and Cart take 15% combined */
+}
+
+.navbar-nav {
+  width: 55%; /* Center nav items take 55% */
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+
+.card
+{
+  height: 40%;
+  width: 20%;
+  background-color: #ffd60a;
+  margin-inline: 10px;
+}
+
+
+
+.card-img-top
+{
+  display: flex;
+  height: 50%;
+  width: 80%;
+  border-radius: 50%;
+  justify-self: center;
+  align-items: center;
+}
+
+.title
+{
+  display: flex;
+  justify-content: center;
+
+}
+
+.popular-grid
+{
+  display: inline-flex;
+  
+
+}
+
+.exploreButton
+{
+  position: fixed;
+  bottom: 10vh;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  background-color: #003566;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+}
+
+.exploreButton:hover
+{
+  background-color: #1c91ff;
+}
+
+
+.contact-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  text-align: center;
+  width: 300px;
+}
+
+.contact-card h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.contact-card p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.contact-card strong {
+  color: #333;
+}
+
+
+/* @media screen and (max-width: 600px) {
+  .navbar-nav
+  {
+    display: none;
+  }
+
+
+  
+}
+
+@media screen and (min-width: 600px)
+{
+  .menuItems{
+    display: none;
+  }
+} */
