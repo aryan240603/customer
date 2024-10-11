@@ -1,71 +1,504 @@
-.logo {
-  width: 100px; /* Adjust logo size */
+body {
+  padding-inline: 10px;
+}
+
+.homePage1
+{
+  display: flex;
+  position: relative;
+  width: 100vw;
+  padding-inline: 30px;
+  align-items: center;
+  justify-self: center;
+  height: 100vh;
+
+
+}
+
+.container-fluid
+{
+  backdrop-filter: blur(10px);
+  backface-visibility: visible;
+}
+
+.heroHeading {
+  display: flex;
+  justify-content: center;
+  padding-top: 10vh;
+  font-size: 7.5rcap;
+  align-items: center;
+  align-self: center;
+  border-radius: 20%;
+float: left;
+width: 50vw;
+}
+
+.bgImage1Div 
+{
+
+  display: flex;
+  width: 50vw;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+/* Image Animation */
+
+
+
+.bgImage1 {
   border-radius: 50%;
+  width: 40vw;
+  margin-top: 10vh;
+  box-shadow: 10px 10px #9acbff8d;
+  
+}
+
+.headingDiv
+{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+  padding-top: 20px;
+  color:#003566;
+  border-radius: 10%;
+  border-style: solid;
+
+}
+
+.heading
+{
+  display: flex;
+  border-style: solid;
+  border-radius: 40% 40% 40% 40%;
+  color: #003566;
+  padding: 20px;
+  
+}
+
+.logo {
+  width: 100px;
+  /* Adjust logo size */
+  border-radius: 50%;
+  height: 75px;
+}
+
+.box {
+  background-color: #eefa00;
+  color: #00509d;
+  
 }
 
 .icon {
-  width: 30px; /* Adjust icon size */
-  height: 30px;
+  width: 30px;
+  /* Adjust icon size */
+  height: 20px;
   margin-left: 15px;
 }
 
 .navbar {
-  width: 100%; /* Full-width navbar */
-  background-color: #ffd60a;
+  width: 100%;
+  /* Full-width navbar */
+  position: fixed;
+  z-index: 1;
+  height: fit-content;
+  backdrop-filter: blur(10px);
+  backface-visibility: visible;
 }
 
 .navbar-brand {
-  width: 15%; /* Logo takes 15% */
+  width: 15%;
+  /* Logo takes 15% */
+  
 }
 
 .d-flex {
-  width: 15%; /* Search and Cart take 15% combined */
+  width: 15%;
+  /* Search and Cart take 15% combined */
 }
 
 .navbar-nav {
-  width: 55%; /* Center nav items take 55% */
+  width: 55%;
+  /* Center nav items take 55% */
   justify-content: center;
   align-items: center;
- 
+  backdrop-filter: blur(10px);
+  backface-visibility: visible;
+
+}
+
+.nav-item {
+  margin-inline: 10px;
+  border-radius: 20%;
+
+
+}
+
+.nav-item :hover
+{
+  box-shadow: 1.5px 1.5px 1.5px 1.5px #40a7c7b0;
+  animation-name: boxShadow;
+  animation-duration: 2s;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  animation-direction:alternate;
+  background-color: #001d3d;
+  color: rgb(236, 249, 0);
+}
+
+.nav-link :hover
+{
+  color: yellow;
+}
+
+@keyframes boxShadow {
+  from{
+    box-shadow: 1.5px 1.5px 1.5px 1.5px #40a7c7b0;
+
+  }
+  to
+  {
+    box-shadow: 3px 3px 3px 3px #005771b0;
+  }
+}
+#offcanvasNavbar {
+  display: flex;
+  align-items: center;
+
+}
+
+/* Menu Item Card CSS */
+
+/* Menu Item Card */
+.menu-item-card {
+  position: relative;
+  background-color: #1177e4;
+  /* Navy Blue */
+  color: white;
+  max-width: 345px;
+  margin: 20px;
+  border-radius: 15px;
+  transition: transform 0.5s ease;
+  box-shadow: 0 4px 10px rgba(0, 85, 121, 0.2);
+
+}
+
+.menuContainer {
+  display: flex;
+  margin: 20px;
+  position: relative;
 }
 
 
-.card
+.menu-item-card:hover {
+  transform: scale(1.025);
+}
+
+.menu-item-image {
+  border-radius: 15px 15px 0 0;
+}
+
+.dish-name {
+  color: #00509d;
+  /* Bright Yellow */
+  font-weight: bold;
+}
+
+.dish-description {
+  color: #eefa00;
+  /* Golden Yellow */
+  margin: 10px 0;
+}
+
+.dish-action {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.order-button {
+  background-color: #003566;
+  /* Dark Blue */
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.order-button:hover {
+  background-color: #ffc300;
+  /* Golden Yellow on hover */
+  color: #000814;
+  /* Dark Navy */
+}
+
+/* Contact Card */
+.contact-card {
+  background-color: #001d3d;
+  /* Navy Blue */
+  color: white;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact-title {
+  color: #ffd60a;
+  /* Bright Yellow */
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.contact-icon {
+  color: #ffc300;
+  /* Golden Yellow */
+}
+
+.contact-text {
+  color: #6f4a00;
+  /* Golden Yellow */
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.contact-manager {
+  color: #ffd60a;
+  /* Bright Yellow */
+  margin-top: 20px;
+  text-align: center;
+
+  /* Contact Page */
+  .contact-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    background-color: #000814;
+    color: white;
+    min-height: 100vh;
+  }
+
+  .contact-details-card,
+  .contact-form-card {
+    background-color: #001d3d;
+    color: white;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .section-title {
+    color: #ffd60a;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .contact-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .contact-icon {
+    color: #ffc300;
+    margin-right: 10px;
+  }
+
+  .contact-text {
+    font-size: 18px;
+    color: #ffc300;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .form-field {
+    background-color: white;
+    border-radius: 5px;
+  }
+
+  .submit-button {
+    background-color: #003566;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+
+  .submit-button:hover {
+    background-color: #ffc300;
+    color: #000814;
+  }
+
+}
+
+.menuContainer {
+  display: grid;
+  width: auto;
+  justify-content: center;
+}
+
+.card {
+  margin: 20px;
+  justify-content: center;
+}
+
+.dropdown-menu {
+  min-width: 20vw;
+  min-height: 30vh;
+  margin-top: 40px;
+}
+
+.refresh {
+  padding: 5px;
+  position: absolute;
+  border: 1px dotted var(--accent);
+  border-radius: 5px;
+  width: 20px;
+  height: 20px;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.refresh path {
+  fill: var(--accent);
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background: var(--accent);
+}
+
+@media screen and (max-width: 500px) {
+  .list {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .items:nth-child(1) {
+    border-top: 1px solid rgba(255, 255, 255, 0.555);
+    margin-top: 50px;
+  }
+
+  .items {
+    width: 100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.555);
+    text-align: center;
+    margin-right: 0px;
+    padding: 20px 0;
+  }
+
+  .btn {
+    display: block;
+  }
+}
+
+/* Contact  */
+/* .contactDiv
 {
-  height: 40%;
-  width: 20%;
+  display: flex;
+  padding-inline: 20px;
+  align-items: center;
+  justify-content: center;
+  position:relative
+}
+.contact-card
+{
+  width: 40vw;
+}
+.hours
+{
+
+} */
+
+
+/* .card
+{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
   background-color: #ffd60a;
   margin-inline: 10px;
+  width: 30vw;
+}
+
+*/
+/* .card
+{
+  display: grid;
 }
 
 
 
-.card-img-top
+.card-text
+{
+  text-align: center;
+  flex-wrap: wrap;
+  text-wrap: wrap;
+}
+.card-body
 {
   display: flex;
-  height: 50%;
-  width: 80%;
-  border-radius: 50%;
-  justify-self: center;
+  flex-wrap: wrap;
   align-items: center;
-}
-
-.title
-{
-  display: flex;
   justify-content: center;
-
-}
-
-.popular-grid
-{
-  display: inline-flex;
+  min-width: 10vw;
   
 
-}
+}  */
 
-.exploreButton
+/* 
+.card-img-center
 {
+ display: flex;
+  border-radius: 20%;
+  padding: 5%;
+
+} */
+
+
+
+/* .popular-grid
+{
+  display: flex;
+  justify-content: space-evenly;
+  overflow: hidden;
+
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  
+
+} */
+
+.exploreButton {
   position: fixed;
   bottom: 10vh;
   left: 50%;
@@ -81,8 +514,7 @@
 
 }
 
-.exploreButton:hover
-{
+.exploreButton:hover {
   background-color: #1c91ff;
 }
 

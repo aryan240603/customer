@@ -4,61 +4,61 @@
       "id": 1,
       "dish_name": "Spaghetti Carbonara",
       "dish_description": "Classic Roman pasta with eggs, cheese, pancetta, and pepper.",
-      "dish_image_url": "https://example.com/images/spaghetti-carbonara.jpg"
+      "img_url": "https://www.istockphoto.com/photo/pasta-carbonara-gm1142391463-306429117?utm_source=pixabay&utm_medium=affiliate&utm_campaign=SRP_image_sponsored&utm_content=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fspaghetti%2520carbonara%2F&utm_term=spaghetti+carbonara"
     },
     {
       "id": 2,
       "dish_name": "Margherita Pizza",
       "dish_description": "Traditional pizza with tomatoes, mozzarella, fresh basil, and olive oil.",
-      "dish_image_url": "https://example.com/images/margherita-pizza.jpg"
+      "img_url": "https://cdn.pixabay.com/photo/2020/06/08/16/49/pizza-5275191_1280.jpg"
     },
     {
       "id": 3,
       "dish_name": "Lasagna Bolognese",
       "dish_description": "Layered pasta with meat sauce, bechamel, and Parmesan cheese.",
-      "dish_image_url": "https://example.com/images/lasagna-bolognese.jpg"
+      "img_url": "https://cdn.pixabay.com/photo/2021/02/06/11/51/food-5987888_640.jpg"
     },
     {
       "id": 4,
       "dish_name": "Risotto alla Milanese",
       "dish_description": "Creamy risotto flavored with saffron and Parmesan.",
-      "dish_image_url": "https://example.com/images/risotto-milanese.jpg"
+      "img_url": "https://cdn.pixabay.com/photo/2016/01/07/19/47/risotto-1126412_1280.jpg"
     },
     {
       "id": 5,
       "dish_name": "Bruschetta al Pomodoro",
       "dish_description": "Grilled bread topped with fresh tomatoes, garlic, and olive oil.",
-      "dish_image_url": "https://example.com/images/bruschetta-pomodoro.jpg"
+      "img_url": "https://cdn.pixabay.com/photo/2019/06/18/18/01/bruschetta-4282898_640.jpg"
     },
     {
       "id": 6,
       "dish_name": "Fettuccine Alfredo",
       "dish_description": "Pasta tossed in a creamy sauce made from butter and Parmesan.",
-      "dish_image_url": "https://example.com/images/fettuccine-alfredo.jpg"
+      "img_url": "https://cdn.pixabay.com/photo/2024/01/12/16/51/ai-generated-8504384_640.png"
     },
     {
       "id": 7,
       "dish_name": "Gnocchi alla Sorrentina",
       "dish_description": "Soft potato dumplings baked in a tomato sauce with mozzarella.",
-      "dish_image_url": "https://example.com/images/gnocchi-sorrentina.jpg"
+      "img_url": "https://images.unsplash.com/photo-1698688332650-8724293b2ad8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fEdub2NjaGklMjBhbGxhJTIwU29ycmVudGluYXxlbnwwfHwwfHx8MA%3D%3D"
     },
     {
       "id": 8,
       "dish_name": "Penne Arrabbiata",
       "dish_description": "Spicy pasta with tomatoes, garlic, and red chili peppers.",
-      "dish_image_url": "https://example.com/images/penne-arrabbiata.jpg"
+      "img_url": "https://cdn.pixabay.com/photo/2022/09/24/07/31/pasta-7475756_640.jpg"
     },
     {
       "id": 9,
       "dish_name": "Tiramisu",
       "dish_description": "Layered dessert with mascarpone, coffee, cocoa, and ladyfingers.",
-      "dish_image_url": "https://example.com/images/tiramisu.jpg"
+      "img_url": "https://cdn.pixabay.com/photo/2017/08/17/00/15/cake-2649603_640.jpg"
     },
     {
       "id": 10,
       "dish_name": "Osso Buco",
       "dish_description": "Slow-cooked veal shank braised with white wine and vegetables.",
-      "dish_image_url": "https://example.com/images/osso-buco.jpg"
+      "img_url": "https://cdn.pixabay.com/photo/2017/07/24/17/54/osso-buco-2535556_640.jpg"
     } ]
 
   
